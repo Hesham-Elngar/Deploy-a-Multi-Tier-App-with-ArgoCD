@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/Hesham-Elngar/multi-tier-app.git"
+    repoURL: "https://github.com/Hesham-Elngar/Deploy-a-Multi-Tier-App-with-ArgoCD.git"
     targetRevision: main
-    path: base
+    path: base 
   destination:
     server: https://kubernetes.default.svc
     namespace: default
